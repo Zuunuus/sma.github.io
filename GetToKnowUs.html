@@ -1,0 +1,417 @@
+<!doctype html>
+<html>
+
+<head>
+
+ <title> Sekolah St. Yakobus </title>
+<style>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS","sans-serif";
+}
+ 
+ 
+body
+{
+    background-color: white;
+}
+ 
+.badan-utama
+{
+    max-width: 1500px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1,5;
+  color: #600001;
+  color: #600005;
+  background: #fff;
+  height: 100%;
+  position: relative;
+  }
+ 
+header
+{
+    background-color:#5E111E;
+    color:#E0C296;
+    padding: 20px;
+ box-shadow: 0px 0px 10px 1px;
+  
+}
+header h1
+{
+    margin-bottom: 5px;
+    font-size: 42px;
+}
+
+a { text-decoration: none; }
+ </style>
+</head>
+
+
+<body>
+ 
+ <div class="badan-utama">
+<header>
+<img src="https://iili.io/RwxeDv.md.png" alt="RwxeDv.md.png" border="0" width="270px" >
+</header>
+
+<div class="menu">
+
+<style>
+
+	.menu {
+		background-color: transparent;
+		border :2px solid : #e74c3c;
+		font-size : 1rem;
+		font-color : black;
+		align-self : center;
+		line-weight :1;
+		text-align : center; 
+		outline: none;
+		background-color: Transparent;
+		background-repeat:no-repeat;
+		border: none;
+		cursor:pointer;
+		overflow: hidden;}
+
+	.navigasi ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color:#162134;
+		font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS","sans-serif";
+		font-size: 20px;
+		font-weight: bold;
+		box-shadow: 0px 0px 10px 1px White;}
+		
+	.row-reverse {
+		display: flex; 
+		flex-direction: row-reverse; }
+	 
+	.navigasi li {
+		float: right;}
+  
+	.navigasi li a {
+		display: block;
+		color: #ADD1CF;
+		text-align: center;
+		padding: 10px 25px;
+		text-decoration: none;}
+ 
+	.navigasi li a:hover {
+		background-color:#406781;
+	transition-duration: 0,5s}
+
+	.button {
+		background-color: Transparent;
+		background-repeat:no-repeat;
+		border: none;
+		cursor:pointer;
+		overflow: hidden;
+		outline:none;
+		float: left;
+		align: center;}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:#ADD1CF ;
+  padding: 11px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #406781;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #162134;
+  opacity: 0.85;
+  min-width: 124px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 15px;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+		
+.tombol{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	width: 120px;
+	color: #E0C296;
+	border-radius: 5px;
+	text-align: center;}
+		
+.tombol-lengkap{
+    background-color: #600001;
+	width:335px;
+	align-self: center;
+	}
+.kotak
+{
+    border: 0px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+	width:900px;
+	float:center;
+	margin:0 auto;
+}
+ 
+.kotak h3
+{
+    background-color:#5E111E;
+    color: #E0C296;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 2s;
+	animation-delay: 0s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+</style>
+	
+<nav class="navigasi">
+	<ul>
+		<li><button class="menu contact"><a href="#contactus">Contact Us</a></button></li>
+		<div class="dropdown">
+		   <li><button class="dropbtn">About Us<i class="fa fa-caret-down"></i></button>
+			   <div class="dropdown-content">
+				   <a href="about2.html">About</a>
+				   <a href="VisiMisiMotto.html">Vission-Mission-Motto</a>
+				   <a href="GetToKnowUs.html">Get To Know Us</a></div></li>
+	           </div>
+		<div class="dropdown">
+		   <li><button class="dropbtn">Admission<i class="fa fa-caret-down"></i></button>
+			   <div class="dropdown-content">
+				   <a href="Curriculum.html">Curriculum</a>
+				   <a href="AdmissionProcedure.html">Admission Procedure</a></div></li>
+	           </div>
+		<div class="dropdown">
+		   <li><button class="dropbtn">Event<i class="fa fa-caret-down"></i></button>
+			   <div class="dropdown-content">
+				   <a href="online.html">Virtual Event</a>
+				   <a href="berita2.html">News</a>
+				   <a href="fisik.html">Physical Event</a>
+				   <a href="prestasi.html">Achievements</a></div></li>
+	           </div>
+		<div class="dropdown">
+		   <li><button class="dropbtn">Facilities<i class="fa fa-caret-down"></i></button>
+			   <div class="dropdown-content">
+				   <a href="Facilities TK.html">TK</a>
+				   <a href="Facilities SD.html">SD</a>
+				   <a href="Facilities SMP.html">SMP</a>
+				   <a href="Facilities SMA.html">SMA</a>
+				   <a href="Facilities KLINIK.html">Klinik</a></div></li>
+        </div>
+		<li><button class="menu home"><a href="home2.html">Home</a></button></li>         
+	</ul>
+</nav>
+	 
+<div class="animated animatedFadeInUp fadeInUp">
+	<div class="kotak">
+	<h3 font color="white">GET TO KNOW US</h3>
+	
+	<h2><font size="5" style="Tahoma" color="brown"><p align="center"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15867.318161838788!2d106.9159758!3d-6.153579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x970fc402f0f75237!2sSekolah%20Santo%20Yakobus!5e0!3m2!1sid!2sid!4v1630430643681!5m2!1sid!2sid" width="530px" height="361px" style="border:0; padding:0 8px 4px 5px;" allowfullscreen="" loading="lazy" align="right"></iframe> <b> OUR LOCATION </b> </p></font></h2>
+	<p align="center" style="line-height: 140%;"><font size="4"><font style="Times New Roman"><font color="brown"> Jalan Pegangsaan Dua Km. 3,5 RT.10/RW.3 Kelapa Gading - Jakarta Utara 14250
+	<br>
+	<br><b>OUR CONTACT</b><br>
+	Phone: (021) 460 5050
+	<br>
+	WA: 0882 9185 0028</font></font></font></p>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+	 
+<b><font size="4" style="Times New Roman" color="brown"> <a class="tombol tombol-lengkap" href="registrationform2.html">CLICK HERE TO REGISTER</a></font></b>
+<br>
+
+<style>
+.container{
+	max-width: 420px;
+	max-height: 230px;
+	width: 100%;
+	background: #600001;
+	padding: 25px 30px;
+	border-radius: 5px;
+}
+.container form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	padding-left: 15px;
+	font-size: 16px;
+	border-bottom-width: 2px;
+	transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+	border-color: #E0C296;
+}
+form .button1{
+	width: 420px;
+	height: 45px;
+	margin: 15px 0;
+}
+form .button1 input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	color: #ffffff;
+	border: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: #FFDC00;
+}
+form .button1 input:hover{
+	background:#000001;
+}
+</style>
+	
+<div class="container">
+	<form action="#">
+		<div class="user-details">
+		<div class="input-box">
+			<span class="details"><textarea rows="8" cols="50" placeholder="Enter Your Comments Here"></textarea></span>
+		<div class="button1">
+		    <input type="submit" value="Submit">
+		</div>
+		</div>
+		</div>
+	</form>
+</div>
+</div>
+<br>
+<br>
+</div>
+	
+<hr>
+
+<h1 id="contactus"><font size="5" style="Tahoma" color="black" align="left"><p ><b> Contact Us </b></p></font></h1>
+
+ <div style="position=relative; left:50px;bottom:60px; float;left">
+<form action="tel:+6287873365518">
+	 <button class="button" type="submit"><img src="PHOTO/telp.jpeg" width="50" height="50" alt=""></button></form>
+	<form action="https://wa.me/6288291850028">
+	 <button class="button" type="submit"><img src="PHOTO/wa.jpeg" height="50" alt=""></button>
+	</form>
+	
+	 <form action="https://www.instagram.com/sekolahsantoyakobus/">
+         <button class="button" type="submit"><img src="PHOTO/ig.jpeg" height="50" alt=""></button></form>
+	 
+	 <form action="https://www.youtube.com/channel/UCwldOWZ1qOcPQXKFp7qTZkw/featured">
+         <button class="button" type="submit"><img src="PHOTO/youtube.jpeg" height="50" alt=""></button></form>
+	 
+	<form action="GetToKnowUs.html">
+         <button class="button" type="submit"><img src="PHOTO/location.jpeg" height="50" alt=""></button></form>
+	 
+	 
+</div>
+
+ 
+
+<footer>
+
+ @copyright 2021 || Flavia Kayla dan Richelle Marvela
+ 
+
+</footer>
+
+  </div>
+	</div>
+</body>
+
+</html>
